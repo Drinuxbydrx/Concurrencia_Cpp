@@ -1,0 +1,126 @@
+# ==========================================
+# C++ - Ejecutables y archivos compilados
+# ==========================================
+
+# Ejecutables
+*.exe
+*.out
+*.app
+*.bin
+*.elf
+*.axf
+*.hex
+
+# Archivos objeto
+*.o
+*.obj
+
+# Archivos de dependencias
+*.d
+*.dep
+
+# Archivos de ensamblador generados
+*.s
+*.S
+
+# Librerías compiladas
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Directorios de compilación
+build/
+Build/
+out/
+bin/
+obj/
+debug/
+release/
+
+
+# ==========================================
+# CMake
+# ==========================================
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+_install/
+
+
+# ==========================================
+# Visual Studio Code
+# ==========================================
+
+.vscode/
+
+# Excepción: conservar configuraciones útiles
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# ==========================================
+# CLion / JetBrains
+# ==========================================
+
+.idea/
+*.iml
+
+
+# ==========================================
+# Archivos temporales
+# ==========================================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+
+# ==========================================
+# Logs
+# ==========================================
+
+*.log
+logs/
+
+
+# ==========================================
+# GDB / Debug
+# ==========================================
+
+.gdb_history
+
+
+# ==========================================
+# C++ Package Managers
+# ==========================================
+
+.vcpkg/
+conan/
+conan-build/
+
+
+# ==========================================
+# STM32 / Embedded
+# ==========================================
+
+# Archivos generados por compilación
+Debug/
+Release/
+
+# Archivos temporales de compilación
+*.launch
+
+# Archivos generados por STM32CubeIDE
+.metadata/
+
+# Configuración local del workspace
+*.settings/
